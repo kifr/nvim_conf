@@ -41,3 +41,6 @@ opt.listchars = {tab = '>-', trail = '*', nbsp = '+'}
 
 -- カラー
 opt.termguicolors = true
+
+local api = vim.api
+api.nvim_set_hl(0, 'Visual', {bg="#666666"})
